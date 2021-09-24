@@ -15,7 +15,7 @@ public class Main {
     System.out.println("a");  
   }
   else{
-  output=output+counter+temp;
+  output=output+temp+counter;
   temp=message.charAt(i);
   counter=1;
    System.out.println("b");  
