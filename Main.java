@@ -12,13 +12,11 @@ public class Main {
   {
   if(message.charAt(i)==temp){
     counter=counter+1;
-    System.out.println("a");  
   }
   else{
   output=output+temp+counter;
   temp=message.charAt(i);
   counter=1;
-   System.out.println("b");  
   }
   }
   output=output+counter+temp;
